@@ -58,6 +58,10 @@ def lsosh():
             if i%2 == 0:
                 sum = sum + i
     print(sum)
+def zy4():
+    for i in range(1,1001):
+        if i%4 == 1 and i%5 == 4 and i%6 == 3 and i%7 == 5 and i%8 == 1 and i%9 == 0:
+            print(i)
 
 
 if __name__ == '__main__':
@@ -68,3 +72,4 @@ if __name__ == '__main__':
     jishuhe()
     jjcfb()
     lsosh()
+    zy4()
